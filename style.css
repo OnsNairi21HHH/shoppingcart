@@ -1,0 +1,85 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+border: 10px solid #e42283;
+     background-color: lightpink; 
+
+
+}
+.cart-container {
+    width: 90%;
+    margin: 0 auto;
+    
+    padding: 90px;
+    
+    border-radius: 15px;
+    
+  }
+  .cart-container{
+   color:#eb4786;
+
+  }
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eb4786;
+    padding: 10px 0;
+  }
+  
+  .item-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-info h2 {
+    margin-right: 10px;
+    color:#e42283;
+  }
+  
+  .like-btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .like-btn.liked {
+    color: red;
+    border: 10px solid #e42283;
+     background-color: lightpink; 
+  }
+  
+  .delete-btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: rgb(236, 106, 160);
+    background-color: lightpink;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-controls button {
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 5px;
+    background-color: rgb(243, 187, 204);
+    color:rgb(196, 88, 124);
+  }
+  
+  .item-price {
+    font-size: 18px;
+    color:#e42283;
+  }
+  
+  .total-price {
+    text-align: right;
+    font-size: 20px;
+    margin-top: 20px;
+    color:#e42283;
+  }
